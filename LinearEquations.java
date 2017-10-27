@@ -173,3 +173,12 @@ public class LinearEquations
 		
 	}
 }
+//Sample Input
+/*
+Enter the first equation:
+2x+3y=24
+Enter the second equation:
+4x+5y=21
+Value of x=-28.5
+Value of y=27.0
+*/
