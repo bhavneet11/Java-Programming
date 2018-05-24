@@ -4,7 +4,7 @@ public class CommonStrignAncestor {
 
 	public static void main(String[] args) 
 	{
-		String arr[]= {"abc","abd","abf","i"};
+		String arr[]= {"flower","float","flown","floor"};
 		System.out.println(Common(arr));
 
 	}
