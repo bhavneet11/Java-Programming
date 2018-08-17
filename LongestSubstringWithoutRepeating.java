@@ -58,12 +58,12 @@ public class LongestSubstringWithoutRepeating {
 		{
 			if(!set.contains(st.charAt(j)))
 			{
-				set.add(st.charAt(j++));
-				ans=Math.max(ans,j-i);
+				set.add(st.charAt(j++));//adding the element as well as increenting the j
+				ans=Math.max(ans,j-i);//just like if loop to update ans value if i removes 
 			}
 			else 
 			{
-				set.remove(st.charAt(i));
+				set.remove(st.charAt(i++));//i removed from the beginning of the set
 			}
 		}
 		return ans; 
